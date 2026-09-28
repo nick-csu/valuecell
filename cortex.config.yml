@@ -1,0 +1,46 @@
+project: valuecell-demo
+title: ValueCell · Unofficial demo
+theme: system
+primaryColor: '#2563eb'
+home:
+  title: ValueCell documentation
+  description: Unofficial documentation preview prepared by Cortex from the project's existing Markdown.
+  cta:
+    label: Read the documentation
+    href: /docs/overview
+  sections:
+    - title: Configure ValueCell
+      description: Set up model providers and project configuration.
+      href: /docs/configuration-guide
+      badge: Guides
+    - title: Build an agent
+      description: Explore the architecture and agent contribution guide.
+      href: /docs/contribute-an-agent
+      badge: Guides
+    - title: Use docs through MCP
+      description: Read these guides from your AI client with a local documentation server.
+      href: /mcp/setup
+      badge: Local MCP
+    - title: About this demo
+      description: Source attribution, demo limitations, and instructions to reproduce this preview.
+      href: /docs/about-this-demo
+      badge: Unofficial preview
+docs:
+  - section: Getting started
+    sources:
+      - title: Overview
+        document: README.md
+      - title: Configuration guide
+        document: docs/CONFIGURATION_GUIDE.md
+  - section: Build with ValueCell
+    sources:
+      - title: Core architecture
+        document: docs/CORE_ARCHITECTURE.md
+      - title: Contribute an agent
+        document: docs/CONTRIBUTE_AN_AGENT.md
+      - title: Python package
+        document: python/README.md
+  - section: About this preview
+    sources:
+      - title: About this demo
+        document: CORTEX_DEMO.md
