@@ -1,5 +1,6 @@
 project: valuecell-demo
-title: ValueCell
+title: ValueCell Docs
+showLogoDocsLabel: false
 favicon: frontend/src-tauri/icons/icon.ico
 theme: system
 primaryColor: '#2563eb'
